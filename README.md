@@ -6,7 +6,6 @@
 </div>
 <br>
 
-## Que es el panel frontal de devs de larnU?
 
 Proyecto de consulta de la API Fake Store API
 <br>
