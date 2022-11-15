@@ -1,7 +1,7 @@
 import ProductCard from "../productCard/ProductCard";
 import { useEffect, useState } from "react";
 import axios from "axios";
-
+import "./products.css"
 
 const Products = () => {
     const [products, setProducts] = useState([]);
@@ -13,7 +13,6 @@ const Products = () => {
 
   return (
     <div className="App">
-      <h1>Lista de productos</h1>
       {products && products.map((product)=>{
         return (
           <ProductCard 

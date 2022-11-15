@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ProductCard from "../productCard/ProductCard"
-
+import "./productDetail.css"
 import axios from "axios";
 
 
@@ -15,13 +15,14 @@ const ProductDetail = () => {
   }, [])
 
   return (
-      <div>
-        <h1>Informacion del producto con el id:{id} </h1>
+      <div className="detail">
+        <h1>Product information with id:{id} </h1>
         {product&& <ProductCard 
           title={product.title}
           image={product.image}
           price={product.price}
           id={product.id}
+          description={product.description}
         />
         }
 
