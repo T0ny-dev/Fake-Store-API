@@ -1,4 +1,4 @@
-# devs_portal_frontend
+
 <div align="center">
   <h1>Fake Store Api</h1>
   <strong>Documentación del proyecto y marcos de trabajo que se utilizan</strong><br>
